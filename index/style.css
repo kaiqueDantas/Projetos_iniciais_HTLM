@@ -36,3 +36,22 @@ a[href $= "contato"] {} - Altera a tag que termina com a palavra do atributo
 a[href *= "contato"] {} - Altera a tag que contém a palavra do atributo, sem considerar a posição
 a[href *= "contato" i] {} - Altera a tag que contém a palavra do atributo, ignorando se é maiuscula ou minuscula
 */
+
+/*
+Pseudo-Classe
+
+Quando usamos o pseudo-classe, colocamos a tag ou classe e ":", para definirt uma ação
+
+h1:hover {} - 
+
+
+Exemplos:
+
+:disabled
+:hover
+:checked
+:enabled
+:focus
+:not()
+
+*/
