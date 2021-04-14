@@ -31,5 +31,7 @@ Seletores de atrbutos
 input [class] {} - Indica para mudar apenas a tag com o atributo especificado
 [class] {} - Altera qualquer tag com o atributo [class]
 input [type = "text"] {} - Alterar apenas o atributo com o tipo, neste caso, texto 
-
+a[href ^= "contato"] {} - Altera a tag que começa com a palavra do atributo
+a[href $= "contato"] {} - Altera a tag que termina com a palavra do atributo
+a[href *= "contato"] {} - Altera a tag que contém a palavra do atributo
 */
