@@ -1,9 +1,35 @@
-/* */
+
+/*
+Criar uma classe 
+
 .texto {
 
 color: cadetblue;
 
+} */
+
+.texto {
+
+    color: cadetblue;
 }
 
+/*
+Seletores relacionais
+
+li spam {} - Cria filhos da Tag, no caso o <Spam>, é filho de <li>
+li > spam {} - Filho direto, sem ter tag no meio
+hi + span{} - Que tenha antes a tag mencionada, no caso a <h1>
+hi ~ span{} - Não importa se tem alguma Tag no meio
+
+*/
 
 
+/*
+
+Seletores de atrbutos 
+
+input [class] {} - Indica para mudar apenas a tag com o atributo especificado
+[class] {} - Altera qualquer tag com o atributo [class]
+input [type = "text"] {} - Alterar apenas o atributo com o tipo, neste caso, texto 
+
+*/
